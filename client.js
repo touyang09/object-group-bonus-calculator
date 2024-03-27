@@ -1,5 +1,5 @@
 // array of employee objects
-const employees = [
+ /*const employees = [
   {
     name: 'Atticus',
     employeeNumber: '2405',
@@ -30,9 +30,9 @@ const employees = [
     annualSalary: '35000',
     reviewRating: 1
   }
-];
+]; */
 
-console.log('array of employee data: ',  employees );
+//console.log('array of employee data: ',  employees );
 
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
@@ -48,10 +48,15 @@ console.log('array of employee data: ',  employees );
 
 // This function will calculate 1 employee's bonus!
 //
-function calculateIndividualEmployeeBonus( employee ) {  
+//function calculateIndividualEmployeeBonus( employee ) {  
   // your logic here
   
   
   // return new object with bonus results
 
-}
+//Stretch Goals
+//Create a diagram, flowchart, or some other visual aid that documents the logic you've just implemented.
+[Start] -> [Input Employee Object] -> [Determine Review Rating Bonus] -> [Longevity Check] -> ...
+-> [High Earner Adjustment] -> [Enforce Bonus Limits] -> [Calculate Total Bonus and Compensation] ->
+[Construct Result Object] -> [Return Result Object] -> [End]
+
